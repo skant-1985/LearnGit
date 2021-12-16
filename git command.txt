@@ -3,7 +3,7 @@ GIT
 Shortcut 
 Ctrl + 					# to make terminal text large
 Up Arrow key 				# to past previous command used in terminal
-=======================================================================================================
+======================================================================================================
 Git Basic Command while useing git First time
 git --version
 git config --global user.name "Shashi Kant"
@@ -15,20 +15,27 @@ git config user.email
 Git Command
 git status
 git init               			# make a folder git repositry folder
-git add --a {git add .}			# for adding all the files in staging area
-git add name_of_file   			# for adding individual file in staging areae
+git add --a {git add .}			# for adding ALL the files in staging area
+git add name_of_file   			# for adding individual file in staging area
 git commit -m "commit msg"		# to add in comminting area
-
-
-
-git commit -a -m "commit msg"		# skipping The staging Area
+git commit -a -m "commit msg"		# skip The staging Area direct commit
 git log 				# to see all your commit
+========================================================================================================
+
+
 git rm filename.extension		# It will delete the file and if you do “git status” now it will say that the file has been deleted and staged.
 git mv filename.ext renamefile.ext	# It will rename the file from filename.extension to renamefile.extension. And it will also get automatically staged by git.
 					  All we need to do is commit.
 git rm --cached file.extension		# It will remove that file from the staging area and become an untracked file.
 
  
+
+
+
+
+
+
+
 
 =============================================================================================================
 rm -rf .git   							# git reposatary will not be longer git reposatry
